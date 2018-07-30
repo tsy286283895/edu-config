@@ -14,3 +14,15 @@ eureka:
     client: 
         service-url: 
             defaultZone: http://eureka-dev.com:7001/eureka
+---
+server: 
+    prot: 8202
+spring: 
+    profiles: test
+    application: 
+        name: eduservice-config-client
+eureka: 
+    client: 
+        service-url: 
+            defaultZone: http://eureka-dev.com:7001/eureka
+            

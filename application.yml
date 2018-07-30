@@ -1,0 +1,14 @@
+﻿spring: 
+    profiles: 
+        active: 
+        -dev 
+---
+spring: 
+    profiles: dev 
+    application: 
+        name: eduservice-config-atguigu-dev
+---
+spring: 
+    profiles: test 
+    application: 
+        name: eduservice-config-atguigu-test 
